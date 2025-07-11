@@ -1,113 +1,92 @@
 /* basic */
 :root {
-    --main-color: #2B7FFF;
-    --body-color: #011C44;
-    --sec-color-dark: #4A4A4A;
-    --sec-color-light: #747272;
-    --sec-color-blue: #011F4A;
-    --sec-color-yellow: #FFD02B;
-    --white: #FFFFFF;
+  --main-color: #2b7fff;
+  --body-color: #011c44;
+  --sec-color-dark: #4a4a4a;
+  --sec-color-light: #747272;
+  --sec-color-blue: #011f4a;
+  --sec-color-yellow: #ffd02b;
+  --white: #ffffff;
 }
 
 html {
-    width: 100%;
+  width: 100%;
 }
 
 body {
-    font-family: Roboto;
-    color: var(--body-color);
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 1.5;
+  font-family: Roboto;
+  color: var(--body-color);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+}
+
+ul a {
+  text-decoration: none;
 }
 
 /* logo */
 
 .logo {
-    font-weight: 700;
-    line-height: 21px;
-    color: var(--main-color);
-    text-decoration: none;
-    text-transform: capitalize;
-    font-family: play;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--main-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: play;
 }
 
 /* link */
-.links a, a:visited {
-    text-decoration: none;
-    font-size: 18px;
-    color: inherit;
+.links a,
+a:visited {
+  font-size: 18px;
+  color: inherit;
 }
 
 .links a:hover {
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--main-color);
-}
-
-/* buttons header */
-.buttons-social li button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--main-color);
 }
 
 /* title */
 .title-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .title-main {
-    font-family: play;
-    font-weight: 700;
-    color: var(--main-color);
-    font-size: 140px;
-    line-height: 114px;
-    text-transform: capitalize;
+  font-family: play;
+  font-weight: 700;
+  color: var(--main-color);
+  font-size: 140px;
+  line-height: 114px;
+  text-transform: capitalize;
 }
 
 /* title-button */
 .title-button {
-    color: var(--white);
-    background-color: var(--main-color);
-    font-weight: 600;
-    font-size: 18px;
-    border: 2px solid var(--main-color);
-    border-radius: 32px;
-    align-items: center;
-    padding: 16px 32px 16px 32px;
+  color: var(--white);
+  background-color: var(--main-color);
+  font-weight: 600;
+  font-size: 18px;
+  border: 2px solid var(--main-color);
+  border-radius: 32px;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
 }
 
 .title-button:hover {
-    color: var(--body-color);
-    background-color: transparent;
+  color: var(--body-color);
+  background-color: transparent;
 }
 
 /* title under button */
 .title-undertext {
-    color: var(--sec-color-dark);
-    align-items: center;
-    font-size: 18px;
-}
-
-/* arrows */
-.arrow {
-    background-color: var(--white);
-    border: 2px solid var(--sec-color-blue);
-    align-items: center;
-    border-radius: 100%;
-    width: 44px;
-    height: 44px;
-    text-decoration: solid;
-}
-
-.arrow:hover {
-    cursor: pointer;
-    background-color: var(--main-color);
-    border: 2px solid var(--white);
-    color: var(--white);
+  color: var(--sec-color-dark);
+  align-items: center;
+  font-size: 18px;
 }
